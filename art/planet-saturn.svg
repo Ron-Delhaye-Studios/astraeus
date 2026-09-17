@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="pl-saturn-title pl-saturn-desc">
+<title id="pl-saturn-title">♄ Saturn — planet medallion</title>
+<desc id="pl-saturn-desc">Planet ♄ (saturn) in its accent color with a thin orbit ellipse. Gold medallion frame on indigo void.</desc>
+<defs><radialGradient id="pl-saturn-mbg" cx="50%" cy="42%" r="65%"><stop offset="0" stop-color="#1a1440"/><stop offset="1" stop-color="#0a0e1a"/></radialGradient></defs>
+<circle cx="60" cy="60" r="58" fill="url(#pl-saturn-mbg)"/>
+<circle cx="60" cy="60" r="52" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<circle cx="60" cy="60" r="44" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+<ellipse cx="60" cy="60" rx="52" ry="16" fill="none" stroke="#d8c58f" stroke-width="3" opacity="0.55" transform="rotate(-22 60 60)"/>
+<text x="60" y="79" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="56" fill="#d8c58f">♄</text>
+<path d="M 108.1 45 A 52 16 -22 0 1 15 82.7" fill="none" stroke="#d8c58f" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-17-title tar-17-desc">
+<title id="tar-17-title">XVII · The Star — tarot</title>
+<desc id="tar-17-desc">Tarot major arcana XVII, The Star. Keywords: hope · renewal · quiet guidance. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-17-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1440"/><stop offset="1" stop-color="#1a3a7a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-17-sky)"/>
+<path d="M48 71 L49.4 74.6 L53 76 L49.4 77.4 L48 81 L46.6 77.4 L43 76 L46.6 74.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M152 71 L153.4 74.6 L157 76 L153.4 77.4 L152 81 L150.6 77.4 L147 76 L150.6 74.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M38 145 L39.4 148.6 L43 150 L39.4 151.4 L38 155 L36.6 151.4 L33 150 L36.6 148.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M162 145 L163.4 148.6 L167 150 L163.4 151.4 L162 155 L160.6 151.4 L157 150 L160.6 148.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M58 187 L59.4 190.6 L63 192 L59.4 193.4 L58 197 L56.6 193.4 L53 192 L56.6 190.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M142 187 L143.4 190.6 L147 192 L143.4 193.4 L142 197 L140.6 193.4 L137 192 L140.6 190.6 Z" fill="#f5f0e1" opacity="0.85"/><path d="M100 41 L101.4 44.6 L105 46 L101.4 47.4 L100 51 L98.6 47.4 L95 46 L98.6 44.6 Z" fill="#f5f0e1" opacity="0.85"/>
+<ellipse cx="100" cy="258" rx="54" ry="12" fill="#0a2b3a" stroke="#5eead4" stroke-width="2.5" opacity="0.9"/>
+<path d="M100 80 L119.8 127.8 L72 108 L119.8 88.2 L100 136 L80.2 88.2 L128 108 L80.2 127.8 Z" fill="#d4af37" fill-opacity="0.25" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"/><circle cx="100" cy="108" r="4" fill="#e8c66a"/><path d="M82 168 C76 196 72 218 70 242" fill="none" stroke="#5eead4" stroke-width="2.5"/><path d="M118 168 C124 196 128 218 130 242" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">XVII</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE STAR</text>
+</svg>

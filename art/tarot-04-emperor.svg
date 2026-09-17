@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-04-title tar-04-desc">
+<title id="tar-04-title">IV · The Emperor — tarot</title>
+<desc id="tar-04-desc">Tarot major arcana IV, The Emperor. Keywords: structure · authority · steady order. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-04-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1420"/><stop offset="1" stop-color="#6a2a1a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-04-sky)"/>
+<circle cx="54" cy="84" r="15" fill="#ff9a5a"/><line x1="73" y1="84" x2="81" y2="84" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="69.4" y1="95.2" x2="75.8" y2="99.9" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="59.9" y1="102.1" x2="62.3" y2="109.7" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="48.1" y1="102.1" x2="45.7" y2="109.7" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="38.6" y1="95.2" x2="32.2" y2="99.9" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="35" y1="84" x2="27" y2="84" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="38.6" y1="72.8" x2="32.2" y2="68.1" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="48.1" y1="65.9" x2="45.7" y2="58.3" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="59.9" y1="65.9" x2="62.3" y2="58.3" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/><line x1="69.4" y1="72.8" x2="75.8" y2="68.1" stroke="#ff9a5a" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M0 258.3 L28.6 232.4 L57.1 248.5 L85.7 228.1 L114.3 244.7 L142.9 234.9 L171.4 228.1 L200 228 L200 312 L0 312 Z" fill="#241016" opacity="0.9"/>
+<path d="M0 293 L28.6 266.8 L57.1 260.1 L85.7 263.9 L114.3 254.5 L142.9 267.3 L171.4 270.8 L200 256.1 L200 334 L0 334 Z" fill="#180a10" opacity="0.95"/>
+<path d="M100 92 L44 236 L156 236 Z" fill="#2b1418" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"/><circle cx="72" cy="140" r="10" fill="none" stroke="#e8c66a" stroke-width="2.5"/><path d="M72 140 m-4.5 0 a4.5 4.5 0 1 1 4.5 4.5" fill="none" stroke="#e8c66a" stroke-width="2"/><circle cx="128" cy="140" r="10" fill="none" stroke="#e8c66a" stroke-width="2.5"/><path d="M128 140 m-4.5 0 a4.5 4.5 0 1 0 4.5 4.5" fill="none" stroke="#e8c66a" stroke-width="2"/><circle cx="100" cy="188" r="8" fill="none" stroke="#d4af37" stroke-width="3"/><line x1="100" y1="196" x2="100" y2="228" stroke="#d4af37" stroke-width="3"/><line x1="88" y1="208" x2="112" y2="208" stroke="#d4af37" stroke-width="3"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">IV</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE EMPEROR</text>
+</svg>

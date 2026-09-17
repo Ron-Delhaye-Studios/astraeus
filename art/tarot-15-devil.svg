@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-15-title tar-15-desc">
+<title id="tar-15-title">XV · The Devil — tarot</title>
+<desc id="tar-15-desc">Tarot major arcana XV, The Devil. Keywords: bondage · shadow · unhealthy patterns. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-15-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b0a14"/><stop offset="1" stop-color="#5a1a1a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-15-sky)"/>
+<circle cx="100" cy="66" r="12" fill="#ff7a5c"/><line x1="116" y1="66" x2="124" y2="66" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="111.3" y1="77.3" x2="117" y2="83" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="82" x2="100" y2="90" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="88.7" y1="77.3" x2="83" y2="83" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="84" y1="66" x2="76" y2="66" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="88.7" y1="54.7" x2="83" y2="49" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="50" x2="100" y2="42" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/><line x1="111.3" y1="54.7" x2="117" y2="49" stroke="#ff7a5c" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M0 256.9 L28.6 233 L57.1 237.3 L85.7 248.8 L114.3 249.4 L142.9 255.9 L171.4 249.1 L200 242.1 L200 316 L0 316 Z" fill="#200a10" opacity="0.9"/>
+<path d="M100 166 L83.5 115.3 L126.6 146.7 L73.4 146.7 L116.5 115.3 Z" fill="none" stroke="#d4af37" stroke-width="3.5" stroke-linejoin="round"/><circle cx="60" cy="232" r="8" fill="none" stroke="#f5f0e1" stroke-width="2.5"/><circle cx="140" cy="232" r="8" fill="none" stroke="#f5f0e1" stroke-width="2.5"/><path d="M60 240 C80 262 120 262 140 240" fill="none" stroke="#d4af37" stroke-width="2" stroke-dasharray="5 4" opacity="0.7"/><path d="M100 236 L88 264 L112 264 Z" fill="#ff9a5a" opacity="0.85"/><path d="M100 244 L94 262 L106 262 Z" fill="#ffd75e"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">XV</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE DEVIL</text>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-16-title tar-16-desc">
+<title id="tar-16-title">XVI · The Tower — tarot</title>
+<desc id="tar-16-desc">Tarot major arcana XVI, The Tower. Keywords: upheaval · revelation · sudden change. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-16-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a0a0a"/><stop offset="1" stop-color="#6a3a1a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-16-sky)"/>
+<path d="M48 65 L49.4 68.6 L53 70 L49.4 71.4 L48 75 L46.6 71.4 L43 70 L46.6 68.6 Z" fill="#ff9a5a" opacity="0.8"/><path d="M158 96 L159.1 98.9 L162 100 L159.1 101.1 L158 104 L156.9 101.1 L154 100 L156.9 98.9 Z" fill="#ff9a5a" opacity="0.7"/>
+<path d="M0 276.5 L28.6 247.3 L57.1 238.3 L85.7 244.5 L114.3 238.6 L142.9 247.7 L171.4 243.7 L200 255.5 L200 318 L0 318 Z" fill="#1c0e08" opacity="0.9"/>
+<g transform="rotate(12 100 180)"><rect x="85" y="118" width="30" height="112" fill="#3a2a1a" stroke="#d4af37" stroke-width="2"/><path d="M85 118 L92 104 L100 118 L108 104 L115 118 Z" fill="#e8c66a"/><line x1="85" y1="150" x2="115" y2="150" stroke="#d4af37" stroke-width="1.5"/><line x1="85" y1="182" x2="115" y2="182" stroke="#d4af37" stroke-width="1.5"/></g><polyline points="152,44 112,108 138,108 96,178 122,178 88,248" fill="none" stroke="#d4af37" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="140" cy="200" r="3" fill="#ff9a5a"/><circle cx="68" cy="232" r="2.5" fill="#ff9a5a"/><circle cx="120" cy="256" r="3" fill="#ff9a5a"/><circle cx="88" cy="266" r="2.5" fill="#ff9a5a"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">XVI</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE TOWER</text>
+</svg>

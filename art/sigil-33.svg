@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="sig-33-title sig-33-desc">
+<title id="sig-33-title">Numerology sigil 33</title>
+<desc id="sig-33-desc">Sacred-geometry sigil for the number 33: gold linework on indigo void, numeral labeled at the bottom.</desc>
+<defs><radialGradient id="sig-33-mbg" cx="50%" cy="42%" r="65%"><stop offset="0" stop-color="#1a1440"/><stop offset="1" stop-color="#0a0e1a"/></radialGradient></defs>
+<circle cx="60" cy="60" r="58" fill="url(#sig-33-mbg)"/>
+<circle cx="60" cy="60" r="52" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<circle cx="60" cy="60" r="44" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+<path d="M60 25 L83.4 65.5 L36.6 65.5 Z" fill="none" stroke="#d4af37" stroke-width="2.5" stroke-linejoin="round"/><path d="M60 33.5 L66.5 44.8 L53.5 44.8 Z" fill="none" stroke="#d4af37" stroke-width="2" stroke-linejoin="round"/><path d="M49 53.5 L55.5 64.8 L42.5 64.8 Z" fill="none" stroke="#d4af37" stroke-width="2" stroke-linejoin="round"/><path d="M71 53.5 L77.5 64.8 L64.5 64.8 Z" fill="none" stroke="#d4af37" stroke-width="2" stroke-linejoin="round"/>
+<text x="60" y="106" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="18" fill="#f5f0e1">33</text>
+</svg>

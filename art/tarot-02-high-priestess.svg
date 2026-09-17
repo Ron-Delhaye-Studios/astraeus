@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-02-title tar-02-desc">
+<title id="tar-02-title">II · High Priestess — tarot</title>
+<desc id="tar-02-desc">Tarot major arcana II, High Priestess. Keywords: intuition · mystery · inner knowing. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-02-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e1a"/><stop offset="1" stop-color="#3a3a8c"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-02-sky)"/>
+<path d="M 100 70 A 34 34 0 1 0 100 138 A 54.4 54.4 0 1 1 100 70 Z" fill="#f5f0e1"/>
+<path d="M0 256.9 L28.6 227.3 L57.1 246.8 L85.7 228.8 L114.3 242.2 L142.9 245 L171.4 238.6 L200 249.4 L200 310 L0 310 Z" fill="#12162e" opacity="0.9"/>
+<path d="M0 268 L200 262 L200 320 L0 320 Z" fill="#0e2b33" opacity="0.85"/>
+<rect x="42" y="150" width="14" height="112" fill="#f5f0e1" opacity="0.85"/><rect x="144" y="150" width="14" height="112" fill="#23264d"/><path d="M56 162 Q100 202 144 162" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">II</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">HIGH PRIESTESS</text>
+</svg>

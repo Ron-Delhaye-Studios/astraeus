@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-12-title tar-12-desc">
+<title id="tar-12-title">XII · The Hanged Man — tarot</title>
+<desc id="tar-12-desc">Tarot major arcana XII, The Hanged Man. Keywords: pause · surrender · new perspective. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-12-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1a2b"/><stop offset="1" stop-color="#2b3a6a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-12-sky)"/>
+<path d="M 152 65 A 13 13 0 1 0 152 91 A 20.8 20.8 0 1 1 152 65 Z" fill="#f5f0e1" opacity="0.85"/>
+<path d="M0 255.5 L28.6 245.8 L57.1 254 L85.7 232.8 L114.3 250.3 L142.9 250.5 L171.4 236.8 L200 248.6 L200 314 L0 314 Z" fill="#12162e" opacity="0.9"/>
+<path d="M0 289.5 L28.6 264.3 L57.1 271.1 L85.7 260.3 L114.3 270.1 L142.9 262.4 L171.4 264.8 L200 269.2 L200 336 L0 336 Z" fill="#0c0f24" opacity="0.95"/>
+<path d="M100 208 L56 112 L144 112 Z" fill="none" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"/><circle cx="100" cy="130" r="16" fill="none" stroke="#d4af37" stroke-width="2.5"/><circle cx="100" cy="130" r="8" fill="none" stroke="#f5f0e1" stroke-width="3"/><line x1="100" y1="138" x2="100" y2="216" stroke="#f5f0e1" stroke-width="3"/><line x1="78" y1="158" x2="122" y2="158" stroke="#f5f0e1" stroke-width="3"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">XII</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE HANGED MAN</text>
+</svg>

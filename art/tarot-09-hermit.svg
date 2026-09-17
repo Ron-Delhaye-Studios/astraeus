@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-09-title tar-09-desc">
+<title id="tar-09-title">IX · The Hermit — tarot</title>
+<desc id="tar-09-desc">Tarot major arcana IX, The Hermit. Keywords: solitude · reflection · inner light. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-09-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0e1a"/><stop offset="1" stop-color="#2b2b3a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-09-sky)"/>
+<path d="M52 64 L53.7 68.3 L58 70 L53.7 71.7 L52 76 L50.3 71.7 L46 70 L50.3 68.3 Z" fill="#f5f0e1" opacity="0.8"/><path d="M150 55 L151.4 58.6 L155 60 L151.4 61.4 L150 65 L148.6 61.4 L145 60 L148.6 58.6 Z" fill="#f5f0e1" opacity="0.7"/><path d="M170 116 L171.1 118.9 L174 120 L171.1 121.1 L170 124 L168.9 121.1 L166 120 L168.9 118.9 Z" fill="#f5f0e1" opacity="0.6"/>
+<path d="M0 260 L28.6 222.8 L57.1 224.2 L85.7 244 L114.3 234.4 L142.9 231.5 L171.4 250.6 L200 237.7 L200 312 L0 312 Z" fill="#12162e" opacity="0.9"/>
+<path d="M100 148 L58 266 L142 266 Z" fill="#161a30" stroke="#d4af37" stroke-width="1.5"/><path d="M100 96 L113.9 120 L86.1 120 Z" fill="none" stroke="#e8c66a" stroke-width="6.6" opacity="0.25" stroke-linejoin="round"/><path d="M100 96 L113.9 120 L86.1 120 Z" fill="none" stroke="#e8c66a" stroke-width="3" stroke-linejoin="round"/><path d="M100 128 L86.1 104 L113.9 104 Z" fill="none" stroke="#e8c66a" stroke-width="6.6" opacity="0.25" stroke-linejoin="round"/><path d="M100 128 L86.1 104 L113.9 104 Z" fill="none" stroke="#e8c66a" stroke-width="3" stroke-linejoin="round"/><line x1="132" y1="104" x2="132" y2="266" stroke="#8a6a3a" stroke-width="3" stroke-linecap="round"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">IX</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE HERMIT</text>
+</svg>

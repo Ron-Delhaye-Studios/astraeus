@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="nod-north-title nod-north-desc">
+<title id="nod-north-title">☊ North Node — lunar node medallion</title>
+<desc id="nod-north-desc">Lunar north node ☊ with a dashed gold eclipse ring. Gold medallion frame on indigo void.</desc>
+<defs><radialGradient id="nod-north-mbg" cx="50%" cy="42%" r="65%"><stop offset="0" stop-color="#1a1440"/><stop offset="1" stop-color="#0a0e1a"/></radialGradient></defs>
+<circle cx="60" cy="60" r="58" fill="url(#nod-north-mbg)"/>
+<circle cx="60" cy="60" r="52" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<circle cx="60" cy="60" r="44" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+<circle cx="60" cy="60" r="40" fill="none" stroke="#d4af37" stroke-width="1.6" stroke-dasharray="7 5" opacity="0.85"/>
+<text x="60" y="79" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="56" fill="#f5f0e1">☊</text>
+</svg>

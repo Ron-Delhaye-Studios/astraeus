@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-08-title tar-08-desc">
+<title id="tar-08-title">VIII · Strength — tarot</title>
+<desc id="tar-08-desc">Tarot major arcana VIII, Strength. Keywords: courage · patience · gentle power. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-08-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2a10"/><stop offset="1" stop-color="#8c6a2b"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-08-sky)"/>
+<circle cx="89" cy="76" r="8" fill="none" stroke="#e8c66a" stroke-width="2.5"/><circle cx="111" cy="76" r="8" fill="none" stroke="#e8c66a" stroke-width="2.5"/>
+<path d="M0 270.1 L28.6 230.1 L57.1 236.8 L85.7 240.4 L114.3 237.6 L142.9 246.3 L171.4 236.1 L200 229.2 L200 310 L0 310 Z" fill="#241a0e" opacity="0.9"/>
+<path d="M0 280 L28.6 263 L57.1 257.9 L85.7 257.2 L114.3 263.3 L142.9 262.9 L171.4 257.4 L200 254.7 L200 332 L0 332 Z" fill="#171006" opacity="0.95"/>
+<circle cx="100" cy="140" r="26" fill="#ffd75e"/><line x1="130" y1="140" x2="138" y2="140" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="126" y1="155" x2="132.9" y2="159" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="115" y1="166" x2="119" y2="172.9" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="170" x2="100" y2="178" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="85" y1="166" x2="81" y2="172.9" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="74" y1="155" x2="67.1" y2="159" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="70" y1="140" x2="62" y2="140" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="74" y1="125" x2="67.1" y2="121" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="85" y1="114" x2="81" y2="107.1" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="110" x2="100" y2="102" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="115" y1="114" x2="119" y2="107.1" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><line x1="126" y1="125" x2="132.9" y2="121" stroke="#ffd75e" stroke-width="2.5" stroke-linecap="round"/><path d="M62 178 Q100 130 138 178" fill="none" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">VIII</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">STRENGTH</text>
+</svg>

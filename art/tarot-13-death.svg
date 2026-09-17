@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-13-title tar-13-desc">
+<title id="tar-13-title">XIII · Death — tarot</title>
+<desc id="tar-13-desc">Tarot major arcana XIII, Death. Keywords: endings · transformation · release. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-13-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0a12"/><stop offset="1" stop-color="#3a3a4a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-13-sky)"/>
+<path d="M70 252 A30 30 0 0 1 130 252" fill="#e8c66a" opacity="0.9"/>
+<rect x="48" y="196" width="26" height="58" fill="#1c1c28" stroke="#d4af37" stroke-width="1"/><rect x="126" y="196" width="26" height="58" fill="#1c1c28" stroke="#d4af37" stroke-width="1"/>
+<path d="M58 88 L142 88 L142 162 L100 142 L58 162 Z" fill="#14141f" stroke="#d4af37" stroke-width="1.5"/><ellipse cx="111" cy="124" rx="6" ry="11" transform="rotate(90 111 124)" fill="#f5f0e1" opacity="0.95"/><ellipse cx="103.4" cy="134.5" rx="6" ry="11" transform="rotate(162 103.4 134.5)" fill="#f5f0e1" opacity="0.95"/><ellipse cx="91.1" cy="130.5" rx="6" ry="11" transform="rotate(234 91.1 130.5)" fill="#f5f0e1" opacity="0.95"/><ellipse cx="91.1" cy="117.5" rx="6" ry="11" transform="rotate(306 91.1 117.5)" fill="#f5f0e1" opacity="0.95"/><ellipse cx="103.4" cy="113.5" rx="6" ry="11" transform="rotate(378 103.4 113.5)" fill="#f5f0e1" opacity="0.95"/><circle cx="100" cy="124" r="3.5" fill="#e8c66a"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">XIII</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">DEATH</text>
+</svg>

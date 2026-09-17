@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-01-title tar-01-desc">
+<title id="tar-01-title">I · The Magician — tarot</title>
+<desc id="tar-01-desc">Tarot major arcana I, The Magician. Keywords: will · skill · focused intention. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-01-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a1440"/><stop offset="1" stop-color="#8a6a2b"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-01-sky)"/>
+<path d="M 152 74 A 14 14 0 1 0 152 102 A 22.4 22.4 0 1 1 152 74 Z" fill="#f5f0e1" opacity="0.9"/>
+<path d="M0 249.1 L28.6 222.1 L57.1 228.8 L85.7 225.7 L114.3 233.5 L142.9 224.2 L171.4 227.4 L200 216.1 L200 305 L0 305 Z" fill="#12162e" opacity="0.9"/>
+<path d="M0 280.1 L28.6 253 L57.1 248.4 L85.7 243.3 L114.3 244.7 L142.9 249.4 L171.4 249.9 L200 247.4 L200 325 L0 325 Z" fill="#0c0f24" opacity="0.95"/>
+<path d="M100 118 L78 200 L122 200 Z" fill="none" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"/><circle cx="89" cy="86" r="9" fill="none" stroke="#e8c66a" stroke-width="2.5"/><circle cx="111" cy="86" r="9" fill="none" stroke="#e8c66a" stroke-width="2.5"/><circle cx="28" cy="62" r="5" fill="none" stroke="#e8c66a" stroke-width="2"/><path d="M172 56 L177.2 65 L166.8 65 Z" fill="none" stroke="#e8c66a" stroke-width="2"/><rect x="23" y="245" width="10" height="10" fill="none" stroke="#e8c66a" stroke-width="2"/><path d="M166 250 q6 -6 12 0 t12 0" fill="none" stroke="#e8c66a" stroke-width="2"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">I</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE MAGICIAN</text>
+</svg>

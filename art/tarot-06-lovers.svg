@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-06-title tar-06-desc">
+<title id="tar-06-title">VI · The Lovers — tarot</title>
+<desc id="tar-06-desc">Tarot major arcana VI, The Lovers. Keywords: union · choice · aligned values. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-06-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b1a40"/><stop offset="1" stop-color="#8c4a6a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-06-sky)"/>
+<circle cx="100" cy="72" r="13" fill="#e8c66a"/><line x1="117" y1="72" x2="125" y2="72" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="112" y1="84" x2="117.7" y2="89.7" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="89" x2="100" y2="97" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="88" y1="84" x2="82.3" y2="89.7" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="83" y1="72" x2="75" y2="72" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="88" y1="60" x2="82.3" y2="54.3" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="100" y1="55" x2="100" y2="47" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/><line x1="112" y1="60" x2="117.7" y2="54.3" stroke="#e8c66a" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M0 253.3 L28.6 230 L57.1 228.5 L85.7 230.3 L114.3 243.8 L142.9 240.1 L171.4 231 L200 248.4 L200 310 L0 310 Z" fill="#12162e" opacity="0.9"/>
+<path d="M0 289.8 L28.6 257.5 L57.1 270.2 L85.7 263.4 L114.3 254 L142.9 258.2 L171.4 264.6 L200 264.2 L200 332 L0 332 Z" fill="#0c0f24" opacity="0.95"/>
+<circle cx="84" cy="156" r="26" fill="none" stroke="#d4af37" stroke-width="3"/><circle cx="116" cy="156" r="26" fill="none" stroke="#d4af37" stroke-width="3"/><path d="M48 206 L36 236 L60 236 Z" fill="#a3c96a" opacity="0.8"/><line x1="48" y1="236" x2="48" y2="248" stroke="#5a7a3a" stroke-width="3"/><path d="M152 206 L140 236 L164 236 Z" fill="#a3c96a" opacity="0.8"/><line x1="152" y1="236" x2="152" y2="248" stroke="#5a7a3a" stroke-width="3"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">VI</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE LOVERS</text>
+</svg>

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#071018" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ASTRAEUS" />
+  
+  
+  
+  
+  
+  
+  <title>ASTRAEUS — Personal Pattern Map</title>
+  
+
+<body>
+  <main class="shell">
+    <section class="setup" id="setup">
+      <div class="setup-head">
+        <div><p class="kicker">Your pattern begins with real inputs</p><h1>Cast your personal pattern map.</h1><p class="lead">Enter your birth details to calculate a private, on-device reading across astrology, numerology, and a reproducible tarot mirror.</p></div>
+        <div class="setup-actions"><button class="btn secondary install-btn" type="button" hidden>Add ASTRAEUS to my home screen</button></div><div class="setup-note"><strong>Private by design.</strong>Your birth data is saved <em>only on this device</em> — it is never uploaded, transmitted, or shared. Exact birth time and birthplace produce the most accurate chart.</div>
+      </div>
+      <form class="birth-form" id="birthForm">
+        <div class="field wide"><label for="fullName">Full birth name</label><input id="fullName" autocomplete="name" placeholder="As written at birth" required></div>
+        <div class="field wide"><label for="birthPlace">Birth city</label><input id="birthPlace" autocomplete="off" placeholder="Start typing a city&hellip;" required>
+        <div class="place-results" id="placeResults" role="listbox" aria-label="Matching places" hidden></div>
+        <small>Search by OpenStreetMap &middot; Nominatim. Only your search text leaves the device.</small>
+        <input type="hidden" id="birthLat"><input type="hidden" id="birthLon">
+        <button type="button" class="linklike" id="manualCoords">Enter coordinates manually instead</button>
+        <div class="manual-coords" id="manualCoordsWrap" hidden>
+          <div class="field"><label for="birthLatM">Latitude</label><input id="birthLatM" type="number" inputmode="decimal" min="-90" max="90" step="0.00001" placeholder="e.g. 51.50740"><small>North positive, south negative.</small></div>
+          <div class="field"><label for="birthLonM">Longitude</label><input id="birthLonM" type="number" inputmode="decimal" min="-180" max="180" step="0.00001" placeholder="e.g. -0.12780"><small>East positive, west negative.</small></div>
+        </div></div>
+        <div class="field"><label for="birthDate">Birth date</label><input id="birthDate" type="date" required></div>
+        <div class="field"><label for="birthTime">Exact birth time</label><input id="birthTime" type="time" required><small>Use 24-hour or your device picker.</small></div>
+        <div class="field wide"><label for="birthTz">Birthplace timezone</label><select id="birthTz" required><option value="">Choose timezone</option></select><small>The UTC offset is computed from this zone&rsquo;s own history &mdash; daylight saving handled automatically.</small></div>
+        
+        
+        <p class="setup-error" id="setupError" role="alert"></p>
+        <div class="form-actions"><p>Tip: just type your birth city above and pick it from the list — coordinates and the historical UTC offset are resolved for you. Only the city search leaves the device.</p><button class="btn" type="submit">Generate my pattern map</button></div>
+      </form>
+    </section>
+
+    <div class="experience" id="experience" hidden>
+    <section class="hero">
+      <div class="starfield"></div>
+      <div class="hero-copy">
+        <p class="kicker">Private by design · deterministic core</p>
+        <h1>Your pattern map, calculated—not invented.</h1>
+        <p>A visual reading of natal geometry, present transits, two numerology systems, and a reproducible tarot mirror.</p>
+        <div class="identity">
+          <span class="chip"><span class="dot"></span> <span id="heroName">Your name</span></span>
+          <span class="chip" id="heroBirth">Birth details</span>
+          <span class="chip" id="heroPlace">Birthplace</span>
+        </div>
+        <div class="hero-date" id="heroDate">Transit calculation</div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <svg viewBox="0 0 300 300" role="img">
+          <circle cx="150" cy="150" r="130" fill="none" stroke="#294b52" stroke-width="1"/>
+          <circle cx="150" cy="150" r="96" fill="none" stroke="#5ec4b8" stroke-opacity=".45" stroke-width="1" stroke-dasharray="3 7"/>
+          <circle cx="150" cy="150" r="52" fill="#e1ad4f" fill-opacity=".12" stroke="#e1ad4f" stroke-width="1"/>
+          <g class="spin" style="transform-origin:150px 150px;animation:spin 28s linear infinite">
+            <circle cx="150" cy="20" r="5" fill="#e1ad4f"/><circle cx="245" cy="84" r="4" fill="#5ec4b8"/><circle cx="90" cy="245" r="4" fill="#83bbd7"/>
+          </g>
+          <text id="orbitSign" x="150" y="145" fill="#f4f4ec" text-anchor="middle" font-size="35">✦</text>
+          <img id="orbitMedal" class="orbit-medal" src="art/zodiac-aries.svg" alt="" width="104" height="104" hidden />
+          <text id="orbitElement" x="150" y="171" fill="#e1ad4f" text-anchor="middle" font-size="14" letter-spacing="2">YOUR MAP</text>
+          <style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+        </svg>
+      </div>
+    </section>
+
+    <nav class="nav" aria-label="Reading sections">
+      <button class="tab" data-tab="today" aria-selected="true">Today</button>
+      <button class="tab" data-tab="overview" aria-selected="false">Overview</button>
+      <button class="tab" data-tab="sky" aria-selected="false">Sky map</button>
+      <button class="tab" data-tab="numbers" aria-selected="false">Numbers</button>
+      <button class="tab" data-tab="tarot" aria-selected="false">Tarot mirror</button>
+      <button class="tab" data-tab="method" aria-selected="false">How it works</button>
+      <button class="tab" id="changeData" type="button">Change birth data</button>
+      <button class="tab danger" id="eraseData" type="button">Erase my data</button>
+    </nav>
+
+    <section id="today" class="panel active">
+      <div class="section-head"><div><p class="kicker">Daily quantum report</p><h2 id="todayHeading">Your day in four lenses</h2></div><div><p id="todayDate">Calculated from your device clock.</p><button class="why" data-why="daily">How is this built?</button></div>
+      <figure class="today-identity" aria-label="Today's sky identity">
+        <img id="todayMedal" src="art/zodiac-aries.svg" alt="Sun-sign medallion" width="72" height="72" />
+        <img id="todaySigil" src="art/sigil-1.svg" alt="Personal day number sigil" width="72" height="72" />
+        <figcaption id="todayIdentityCap">Your sky, today</figcaption>
+      </figure></div>
+      <div class="controls">
+        <button class="btn" id="refreshToday">Refresh this moment</button>
+        <button class="btn secondary" id="openSky">Inspect the geometry</button>
+      </div>
+      <div class="report-lead">
+        <article class="card ink report-focus">
+          <div><p class="kicker">Primary pattern</p><h3 id="dailyFocusTitle">Calculating today’s closest contacts…</h3><p class="muted" id="dailyFocusText">The report begins with measured geometry, then compares it with progressed, solar-arc, numerical, and symbolic lenses.</p></div>
+          <div><div class="lens-row" id="lensRow"></div><p class="date-lock" id="dailyCalcStamp">Local calculation</p></div>
+        </article>
+        <div class="signal-stack">
+          <article class="signal-box"><p class="kicker">Lunar field</p><p class="value" id="dailyMoon">—</p><p class="muted" id="dailyMoonDetail">—</p></article>
+          <article class="signal-box"><p class="kicker">Numerology</p><p class="value" id="dailyNumber">—</p><p class="muted" id="dailyNumberDetail">—</p></article>
+          <article class="signal-box"><p class="kicker">Motion</p><p class="value" id="dailyRetrogrades">—</p><p class="muted" id="dailyRetroDetail">—</p></article>
+        </div>
+      </div>
+
+      <div class="section-head"><div><p class="kicker">Time layers</p><h2>Fast sky, slow sky</h2></div><p>Transits describe the present field. Secondary progressions and solar arcs add slower developmental timing.</p></div>
+      <div class="report-grid" id="timeLayerGrid"></div>
+
+      <div class="section-head"><div><p class="kicker">Pattern intelligence</p><h2>What repeats across lenses</h2></div><p>Convergence matters more than any single symbol. Agreement is shown; disagreement is kept visible.</p></div>
+      <div class="grid cols-2">
+        <article class="card"><div id="patternStack"></div></article>
+        <article class="card"><p class="kicker">Today’s tarot lens</p><div id="dailyTarot"></div><p class="method-note">This card is a deterministic reflective prompt seeded from your identity, birth instant, date, and draw version. It is not a prediction.</p></article>
+      </div>
+
+      <div class="section-head"><div><p class="kicker">Use it today</p><h2>Three grounded moves</h2></div><p>Reflection becomes useful when it changes what you notice, test, or choose.</p></div>
+      <div class="card"><div class="practice-list" id="dailyPractice"></div></div>
+    </section>
+
+    <div class="art-divider" aria-hidden="true"></div>
+      <section id="overview" class="panel">
+      <div class="section-head"><div><p class="kicker">Your foundation</p><h2>Four anchors</h2></div><p>Glanceable entry points. Open <strong>Why?</strong> anywhere to see the input and calculation behind the result.</p></div>
+      <div class="grid cols-3" id="anchorGrid"></div>
+      <div class="section-head"><div><p class="kicker">Present geometry</p><h2>What the sky emphasizes</h2></div><p>Transit-to-natal aspects for the selected moment. These are timing patterns, not predictions.</p></div>
+      <div class="grid cols-2">
+        <div class="card"><div class="aspects" id="topAspects"></div></div>
+        <div class="card ink">
+          <p class="kicker">Pattern synthesis</p>
+          <p class="big" style="font-size:clamp(30px,5vw,48px)">Pressure can clarify what matters.</p>
+          <p class="muted" id="synthesisText">Loading verified geometry…</p>
+          <button class="why" data-why="synthesis" style="color:#7ed4ca">Why this reflection?</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="art-divider" aria-hidden="true"></div>
+      <section id="sky" class="panel">
+      <div class="section-head"><div><p class="kicker">Natal + transit</p><h2>The sky in degrees</h2></div><p>Geocentric tropical longitudes. Natal houses use the whole-sign system from the calculated Ascendant.</p></div>
+      <div class="controls">
+        <div class="control"><label for="moment">Transit moment (your device time)</label><input id="moment" type="datetime-local" /></div>
+        <button class="btn" id="calculateBtn">Calculate locally</button>
+        <button class="btn secondary" id="nowBtn">Use this moment</button>
+      </div>
+      <div class="timing">
+        <div class="card chart-card"><div class="chart-wrap" id="chartWrap"></div></div>
+        <div class="grid">
+          <div class="card"><p class="kicker">Natal placements</p><div class="planet-list" id="natalList"></div></div>
+          <div class="card"><p class="kicker">Transit placements</p><div class="planet-list" id="transitList"></div></div>
+        </div>
+      </div>
+      <div class="section-head"><div><p class="kicker">Aspects</p><h2>Closest contacts</h2></div><button class="why" data-why="aspects">Why these aspects?</button></div>
+      <div class="card"><div class="aspects" id="allAspects"></div></div>
+      <div class="section-head"><div><p class="kicker">Lunar rhythm</p><h2 id="moonPhaseTitle">Lunar phase</h2></div><button class="why" data-why="moon">Why this phase?</button></div>
+      <div class="grid cols-2">
+        <div class="card" style="display:grid;place-items:center;min-height:220px"><div class="moon-visual" id="moonVisual"></div></div>
+        <div class="card"><p class="big" id="moonAngle">—</p><p class="label" id="moonIllum">—</p><p class="muted">The phase angle is the Moon’s ecliptic longitude minus the Sun’s, normalized to 0–360°. Illumination is derived from that angle.</p></div>
+      </div>
+    </section>
+
+    <div class="art-divider" aria-hidden="true"></div>
+      <section id="numbers" class="panel">
+      <div class="section-head"><div><p class="kicker">Pythagorean</p><h2>Your number architecture</h2></div><p>Every letter and birth-date digit is converted by a published mapping. Master numbers 11, 22, and 33 remain unreduced.</p></div>
+      <div class="num-grid" id="pythNumbers"></div>
+      <div class="section-head"><div><p class="kicker">Two lenses</p><h2>Pythagorean ↔ Chaldean</h2></div><button class="why" data-why="numerology">Why are they different?</button></div>
+      <div class="compare">
+        <div class="card"><div class="system-title"><h3>Pythagorean name</h3><b id="pythTotal">—</b></div><div id="pythBreakdown" class="formula"></div></div>
+        <div class="card"><div class="system-title"><h3>Chaldean name</h3><b id="chaldTotal">—</b></div><div id="chaldBreakdown" class="formula"></div></div>
+      </div>
+      <div class="section-head"><div><p class="kicker">Current cycle</p><h2>Personal year</h2></div></div>
+      <div class="card ink"><p class="big" id="personalYear">—</p><p class="label" id="personalYearLabel">Personal year</p><p class="muted" id="personalYearWhy"></p></div>
+    </section>
+
+    <div class="art-divider" aria-hidden="true"></div>
+      <section id="tarot" class="panel">
+      <div class="section-head"><div><p class="kicker">Archetypal pattern mirror</p><h2>Three-card reflection</h2></div><p>The draw is deterministic: the same identity, birth instant, date, and draw number produce the same cards. It does not predict an event.</p></div>
+      <div class="tarot-stage" id="tarotStage"></div>
+      <div class="controls" style="margin-top:16px"><button class="btn" id="newMirror">Draw another mirror</button><button class="why" data-why="tarot">Why these cards?</button></div>
+      <div class="provenance" id="tarotSeed"></div>
+    </section>
+
+    <div class="art-divider" aria-hidden="true"></div>
+      <section id="method" class="panel">
+      <div class="section-head"><div><p class="kicker">Deterministic first</p><h2>Calculation before interpretation</h2></div><p>This prototype shows its work and keeps uncertainty visible.</p></div>
+      <div class="grid cols-2">
+        <div class="card method-step"><div class="step">1</div><div><h3>Normalize the inputs</h3><p>Your local birth date and time are combined with the historical UTC offset you provide to create one unambiguous UTC instant.</p></div></div>
+        <div class="card method-step"><div class="step">2</div><div><h3>Compute celestial geometry</h3><p>An embedded MIT-licensed astronomy engine calculates geocentric true-ecliptic positions for Sun, Moon, and planets entirely in this page.</p></div></div>
+        <div class="card method-step"><div class="step">3</div><div><h3>Derive chart structure</h3><p>Local sidereal time plus latitude/longitude yields the Ascendant. The Ascendant’s sign becomes whole-sign house 1.</p></div></div>
+        <div class="card method-step"><div class="step">4</div><div><h3>Measure, then explain</h3><p>Aspects are angular separations tested against fixed orbs. Numerology uses explicit tables. Tarot uses a seeded pseudo-random draw.</p></div></div>
+      </div>
+      <div class="section-head"><div><p class="kicker">Input ledger</p><h2>What this reading uses</h2></div></div>
+      <div class="card">
+        <div class="input-ledger">
+          <div class="input-row"><strong>Name</strong><span>Numerology input</span><b id="ledgerName">—</b></div>
+          <div class="input-row"><strong>Birth</strong><span>Local input</span><b id="ledgerBirth">—</b></div>
+          <div class="input-row"><strong>UTC</strong><span>Normalized instant</span><b id="ledgerUtc">—</b></div>
+          <div class="input-row"><strong>Place</strong><span>Chart origin</span><b id="ledgerPlace">—</b></div>
+        </div>
+      </div>
+      <div class="provenance" style="margin-top:14px"><strong>Privacy:</strong> calculations happen in this page. There is no account, backend, database, analytics, or submission endpoint. Your birth data is held only in memory and clears when the page reloads.</div>
+      <div class="provenance" style="margin-top:10px"><strong>Scope:</strong> this is a symbolic reflection tool, not scientific forecasting, medical advice, financial advice, or a claim about future events. “Quantum” names the comparative framework; it does not claim quantum computation.</div>
+    </section>
+
+    <footer><span>Calculated in-page · no invented positions</span><span id="calcStamp">Ephemeris ready</span></footer>
+    </div>
+  </main>
+
+  <dialog id="whyDialog"><div class="dialog-body"><div class="dialog-head"><h2 id="whyTitle">Why?</h2><button class="close" id="closeDialog" aria-label="Close">×</button></div><p id="whyBody"></p><div class="calc-box" id="whyCalc"></div></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="js/vendor/astronomy.browser.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

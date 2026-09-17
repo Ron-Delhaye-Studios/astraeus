@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="320" viewBox="0 0 200 320" role="img" aria-labelledby="tar-07-title tar-07-desc">
+<title id="tar-07-title">VII · The Chariot — tarot</title>
+<desc id="tar-07-desc">Tarot major arcana VII, The Chariot. Keywords: direction · resolve · forward motion. An archetypal mirror, not a prediction.</desc>
+<defs><linearGradient id="tar-07-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1a2b"/><stop offset="1" stop-color="#2b4a6a"/></linearGradient></defs>
+<rect width="200" height="320" rx="16" fill="url(#tar-07-sky)"/>
+<path d="M 100 51 A 15 15 0 1 0 100 81 A 24 24 0 1 1 100 51 Z" fill="#f5f0e1" opacity="0.9"/>
+<path d="M0 266.8 L28.6 236 L57.1 238.8 L85.7 244.3 L114.3 248.4 L142.9 234.9 L171.4 242.7 L200 229.5 L200 312 L0 312 Z" fill="#12162e" opacity="0.9"/>
+<path d="M100 92 L113 149 L76.5 103.3 L129.2 128.7 L70.8 128.7 L123.5 103.3 L87 149 Z" fill="none" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"/><path d="M 56 178 A 14 14 0 1 0 56 206 A 22.4 22.4 0 1 1 56 178 Z" fill="#f5f0e1"/><g transform="translate(284 0) scale(-1 1)"><path d="M 142 178 A 14 14 0 1 0 142 206 A 22.4 22.4 0 1 1 142 178 Z" fill="#1a1e3a" stroke="#d4af37" stroke-width="1.5"/></g><rect x="28" y="244" width="42" height="24" fill="#2b3a5a" stroke="#d4af37" stroke-width="1"/><rect x="79" y="234" width="42" height="34" fill="#2b3a5a" stroke="#d4af37" stroke-width="1"/><rect x="130" y="244" width="42" height="24" fill="#2b3a5a" stroke="#d4af37" stroke-width="1"/>
+<rect x="6" y="6" width="188" height="308" rx="16" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<rect x="13" y="13" width="174" height="294" rx="12" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+<text x="103" y="36" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="20" letter-spacing="6" fill="#d4af37">VII</text>
+<rect x="30" y="272" width="140" height="30" rx="12" fill="#0a0e1a" fill-opacity="0.82"/>
+<text x="101" y="293" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="15" letter-spacing="2" fill="#f5f0e1">THE CHARIOT</text>
+</svg>

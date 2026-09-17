@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="pl-mars-title pl-mars-desc">
+<title id="pl-mars-title">♂ Mars — planet medallion</title>
+<desc id="pl-mars-desc">Planet ♂ (mars) in its accent color with a thin orbit ellipse. Gold medallion frame on indigo void.</desc>
+<defs><radialGradient id="pl-mars-mbg" cx="50%" cy="42%" r="65%"><stop offset="0" stop-color="#1a1440"/><stop offset="1" stop-color="#0a0e1a"/></radialGradient></defs>
+<circle cx="60" cy="60" r="58" fill="url(#pl-mars-mbg)"/>
+<circle cx="60" cy="60" r="52" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+<circle cx="60" cy="60" r="44" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+<ellipse cx="60" cy="60" rx="46" ry="18" fill="none" stroke="#5eead4" stroke-width="1.2" opacity="0.35" transform="rotate(-18 60 60)"/>
+<text x="60" y="79" text-anchor="middle" font-family="Alegreya, Georgia, serif" font-size="56" fill="#ff7a5c">♂</text>
+
+</svg>
