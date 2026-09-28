@@ -1,5 +1,5 @@
 /* ASTRAEUS service worker — offline-first app shell, runtime-cached art. */
-const VERSION = 'astraeus-v2';
+const VERSION = 'astraeus-v3';
 const CORE = [
   './',
   'index.html',

@@ -4,6 +4,7 @@
     function saveProfile(p){try{localStorage.setItem(PROFILE_KEY,JSON.stringify(p));}catch(e){}}
     function loadProfile(){try{const r=localStorage.getItem(PROFILE_KEY);return r?JSON.parse(r):null;}catch(e){return null;}}
     function clearProfile(){try{localStorage.removeItem(PROFILE_KEY);}catch(e){}}
+    function prefillForm(p){if(!p)return;const set=(id,v)=>{const el=document.getElementById(id);if(el&&v!=null&&v!=='')el.value=v;};set('fullName',p.fullName);set('birthPlace',p.place);set('birthDate',p.date);set('birthTime',p.time);set('birthTz',p.tz);set('birthLat',p.lat);set('birthLon',p.lon);}
     const TAROT_FILES=['tarot-00-fool','tarot-01-magician','tarot-02-high-priestess','tarot-03-empress','tarot-04-emperor','tarot-05-hierophant','tarot-06-lovers','tarot-07-chariot','tarot-08-strength','tarot-09-hermit','tarot-10-wheel','tarot-11-justice','tarot-12-hanged-man','tarot-13-death','tarot-14-temperance','tarot-15-devil','tarot-16-tower','tarot-17-star','tarot-18-moon','tarot-19-sun','tarot-20-judgement','tarot-21-world'];
     const PLANET_ART={Sun:'planet-sun',Moon:'planet-moon',Mercury:'planet-mercury',Venus:'planet-venus',Mars:'planet-mars',Jupiter:'planet-jupiter',Saturn:'planet-saturn',Uranus:'planet-uranus',Neptune:'planet-neptune',Pluto:'planet-pluto'};
     function zodiacFile(name){return 'art/zodiac-'+name.toLowerCase()+'.svg';}
@@ -308,9 +309,12 @@
     function init(){
       initTimezone();initPlaceSearch();initInstall();
       document.getElementById('birthDate').max=new Date().toISOString().slice(0,10);bind();
-      document.getElementById('birthForm').addEventListener('submit',e=>{e.preventDefault();const error=document.getElementById('setupError');error.textContent='';if(typeof Astronomy==='undefined'){error.textContent='The calculation core did not load. Please reload the page.';return;}try{preparePerson();}catch(err){error.textContent=err.message;}});
+      document.getElementById('birthForm').addEventListener('submit',e=>{e.preventDefault();const error=document.getElementById('setupError');error.textContent='';if(typeof Astronomy==='undefined'){error.textContent='The calculation core did not load. Please reload the page.';return;}try{preparePerson();toast('Saved on this device — your chart opens automatically from now on.');}catch(err){error.textContent=err.message;}});
       const prof=loadProfile();
-      if(prof&&typeof Astronomy!=='undefined'){try{preparePerson(prof);}catch(e){clearProfile();}}
+      if(prof&&typeof Astronomy!=='undefined'){
+        try{preparePerson(prof);}
+        catch(e){prefillForm(prof);const se=document.getElementById('setupError');if(se)se.textContent='Welcome back — your saved details are filled in below. Tap “Generate my pattern map” to reload your chart.';}
+      }else if(prof){prefillForm(prof);}
     }
     init();
   
