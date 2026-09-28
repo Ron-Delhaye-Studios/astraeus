@@ -1,5 +1,5 @@
 /* ASTRAEUS service worker — offline-first app shell, runtime-cached art. */
-const VERSION = 'astraeus-v1';
+const VERSION = 'astraeus-v2';
 const CORE = [
   './',
   'index.html',
@@ -13,12 +13,18 @@ const CORE = [
   'fonts/AlegreyaSans-500.woff2',
   'fonts/AlegreyaSans-700.woff2',
   'js/vendor/astronomy.browser.js',
+  'js/bazi.js',
   'js/app.js',
   'icons/icon-192.png',
   'icons/icon-512.png',
   'icons/apple-touch-icon.png',
   'art/bg-hero.svg',
-  'art/bg-divider.svg'
+  'art/bg-divider.svg',
+  'art/element-wood.svg',
+  'art/element-fire.svg',
+  'art/element-earth.svg',
+  'art/element-metal.svg',
+  'art/element-water.svg'
 ];
 
 self.addEventListener('install', (e) => {

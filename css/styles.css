@@ -128,3 +128,32 @@
 @media(prefers-reduced-motion:reduce){
   .orbit-medal,.num .sigil{animation:none!important}
 }
+
+/* Five Elements Weather module */
+.bazi-card{margin-top:4px}
+.bazi-hero{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.bazi-medal{flex:0 0 auto}
+.bazi-title{flex:1 1 220px;min-width:0}
+.bazi-title .kicker{margin-bottom:4px}
+.bazi-title h3{font:500 clamp(30px,4.6vw,46px)/1 'Alegreya',serif;margin:0 0 6px}
+.bazi-sub{margin:0;color:var(--muted);font-size:16px}
+.bazi-officer{margin-left:auto;text-align:center;background:var(--surface-2);border:1px solid var(--line);border-radius:13px;padding:10px 18px}
+.bazi-officer span{display:block;font-size:34px;line-height:1;color:var(--gold)}
+.bazi-officer b{display:block;margin-top:6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.bazi-weather{font-size:17px;line-height:1.65;max-width:72ch;margin:16px 0 4px}
+.bazi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+.bazi-cell{background:var(--surface-2);border-radius:13px;padding:12px 14px}
+.bazi-cell .k{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold);font-weight:700;margin:0 0 6px}
+.bazi-cell .v{font:500 19px/1.25 'Alegreya',serif;margin:0}
+.bazi-cell .d{margin:6px 0 0;font-size:13px;color:var(--muted);line-height:1.5}
+.bazi-hex{display:flex;gap:16px;align-items:center;margin-top:14px;background:var(--surface-2);border-radius:13px;padding:14px 16px;flex-wrap:wrap}
+.hex-lines{display:flex;flex-direction:column-reverse;gap:5px}
+.hex-lines i{display:block;height:7px;width:64px;border-radius:4px;background:var(--gold)}
+.hex-lines i.yin{background:transparent;position:relative}
+.hex-lines i.yin::before,.hex-lines i.yin::after{content:"";position:absolute;top:0;height:7px;width:29px;border-radius:4px;background:var(--gold)}
+.hex-lines i.yin::before{left:0}
+.hex-lines i.yin::after{right:0}
+.bazi-hex .hex-name{font:500 24px/1.2 'Alegreya',serif;margin:0}
+.bazi-hex .hex-gloss{margin:4px 0 0;color:var(--muted);font-size:14px;max-width:52ch}
+.bazi-hex .hex-char{font-size:44px;line-height:1;color:var(--gold)}
+@media(max-width:780px){.bazi-officer{margin-left:0}}

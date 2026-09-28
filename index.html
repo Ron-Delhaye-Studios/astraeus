@@ -117,6 +117,23 @@
         </div>
       </div>
 
+      <div class="section-head"><div><p class="kicker">Five elements weather</p><h2>The day's Chinese pillar</h2></div><button class="why" data-why="bazi">How is this calculated?</button></div>
+      <article class="card bazi-card">
+        <div class="bazi-hero">
+          <img id="baziMedal" class="bazi-medal" src="art/element-wood.svg" alt="Element medallion" width="88" height="88" />
+          <div class="bazi-title">
+            <p class="kicker">Day pillar</p>
+            <h3 id="baziTitle">—</h3>
+            <p class="bazi-sub" id="baziSub">—</p>
+          </div>
+          <div class="bazi-officer" id="baziOfficer"><span>—</span><b>—</b></div>
+        </div>
+        <p class="bazi-weather" id="baziWeather">Calculating the day's stem and branch…</p>
+        <div class="bazi-grid" id="baziGrid"></div>
+        <div class="bazi-hex" id="baziHex"></div>
+        <p class="method-note">A deterministic Chinese-calendar conversion, computed on this device from the date and the Sun's position. A reflective lens, not a prediction.</p>
+      </article>
+
       <div class="section-head"><div><p class="kicker">Time layers</p><h2>Fast sky, slow sky</h2></div><p>Transits describe the present field. Secondary progressions and solar arcs add slower developmental timing.</p></div>
       <div class="report-grid" id="timeLayerGrid"></div>
 
@@ -221,6 +238,7 @@
   <div class="toast" id="toast" role="status"></div>
 
   <script src="js/vendor/astronomy.browser.js" defer></script>
+  <script src="js/bazi.js" defer></script>
   <script src="js/app.js" defer></script>
 </body>
 </html>
